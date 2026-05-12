@@ -3,7 +3,9 @@
 
 score = int(input("Введите баллы (0 - 100): "))
 
-if score >= 90:
+if score > 100:
+    grade = "Балл не должен быть больше 100"
+elif score >= 90:
     grade = "A"
 elif score >= 80:
     grade = "B"
