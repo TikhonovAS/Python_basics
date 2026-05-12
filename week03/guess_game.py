@@ -3,17 +3,15 @@
 # Подсказки: "Больше", "Меньше", "Угадал".
 # Используйте while, True, brear - для выхода
 
-# secret = 7
-#
-# while True:
-#     guess = int(input("Введите число: "))
-#     if guess == secret:
-#         print("Угадал")
-#         break
-#     elif guess > secret:
-#         print("Загаданное число меньше")
-#     else:
-#         print("Загаданное число больше")
+secret = 7
 
-for i in range(10, 0, -2):
-    print(i)
+while True:
+    guess = int(input("Введите число: "))
+    if guess == secret:
+        print("Угадал")
+        break
+    elif guess > secret:
+        print("Загаданное число меньше")
+    else:
+        print("Загаданное число больше")
+
