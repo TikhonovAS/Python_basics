@@ -45,7 +45,7 @@ def load_json(filename="config.json"):
 agent_config = {
     "name": "AI-Assistant",
     "version": 1.2,
-    "skills": ["chat", "analize", "log"],
+    "skills": ["chat", "analyze", "log"],
     "settings": {"theme": "dark", "auto_save": True}
  }
 
