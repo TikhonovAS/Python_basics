@@ -17,7 +17,7 @@ def load_config(config_path="config.json"):
   default_config = {
       "bot_name": "AI-Assistant",
       "log_file": "chat.log",
-      "history_title": "chat_history.json",
+      "history_file": "chat_history.json",
       "max_history": 50,              # Сколько последних сообщений хранить
       "welcome_massage": "Привет! Я твой ИИ-помощник. Напиши 'выход' для завершения."
   }
